@@ -24,7 +24,6 @@ h1 {
     word-spacing: 0.5em;
     font-size: 250%;
     margin-top: 20px;
-    margin-bottom: 10px;
 }
 
 h2 {
@@ -44,7 +43,7 @@ p {
 
 .logo {
     background-color: white;
-    padding-bottom: 1em;
+    padding:0.5em;
     font-family: "adorn-smooth-condensed-sans","Lato", sans-serif;
     font-size: 300%;
 }
@@ -76,14 +75,14 @@ p {
 }
 
 .intro {
-    padding: 5% 20% 5% 20%;
+    padding: 3em 20% 3em 20%;
     font-size: 120%;
 }
 
 /*---------------------------CONTENT STUFF-------------------------------*/
 
 .content {
-    padding: 5em;
+    padding: 2em 5em 2em 5em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -199,7 +198,7 @@ a:focus {
 }
 
 footer {
-    padding: 50px;
+    padding-bottom: 50px;
 }
 
 @media screen and (max-device-width: 640px) {
