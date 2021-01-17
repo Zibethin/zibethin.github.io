@@ -69,7 +69,7 @@ a:focus {
 
 @media screen and (max-device-width: 640px) {
     body {
-        font-size: 30px;
+        font-size: 25px;
     }
     .intro {
         padding: 2em;
@@ -88,20 +88,27 @@ a:focus {
 
 /*---------------------------MENU-------------------------------*/
 .logo img {
-    height: 100px;
+    height: 30px;
 }
 
 #menu {
     top: 0;
     display: flex;
+    flex-wrap: wrap;
     /*justify-content: center;*/
     flex-direction: row;
     align-items: center;
     font-family: 'Lato', sans-serif;
+    padding-bottom: 1em;
 }
 
-#menu-left, #menu-right {
-  width: 50%;
+#menu-left {
+  width: 20%;
+  display: block;
+}
+
+#menu-right {
+  width: 80%;
   display: block;
 }
 
@@ -118,6 +125,7 @@ a:focus {
     padding: 25px 25px 25px 25px;
     font-size: 120%;
     font-weight: 800;
+    flex-grow: 1;
 }
 
 
@@ -128,24 +136,32 @@ a:focus {
 /*---------------------------Hamburger menu-------------------------------*/
 
 /* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
+#menu .icon {
   display: none;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 640px) {
+
   .topnav a  {display: none;}
-  .topnav a.icon {
+  #menu a.icon {
     display: block;
   }
-
-  #menu-right {
+  #menu-left {
     width: 70%;
+  }
+  #menu-right {
+    width: 100%;
+  }
+  #menu-right .menu-item{
+    float: none;
   }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   .topnav.responsive {
-    position: relative;
+  /*  position: absolute;*/
     border-style: solid;
+    border-width: thin;
+    background-color: white;
   }
   .topnav.responsive a.icon {
     position: absolute;
@@ -155,7 +171,7 @@ a:focus {
   .topnav.responsive a {
     float: left;
     display: block;
-    text-align: left;
+    width: 100%;
   }
 }
 
