@@ -69,7 +69,7 @@ a:focus {
 
 @media screen and (max-device-width: 640px) {
     body {
-        font-size: 25px;
+        font-size: 18px;
     }
     .intro {
         padding: 2em;
@@ -161,6 +161,7 @@ a:focus {
   /*  position: absolute;*/
     border-style: solid;
     border-width: thin;
+    border-color: #00cc99;
     background-color: white;
   }
   .topnav.responsive a.icon {
