@@ -132,10 +132,10 @@ a:hover, a:focus {
 
 }
 
-.paragraph a:link, a:visited, a:active {
+.paragraph a:link, .paragraph a:visited, .paragraph a:active {
     color: #007554;
 }
-.paragraph a:hover, a:focus{
+.paragraph a:hover, .paragraph a:focus{
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
   color: #00cc99;
