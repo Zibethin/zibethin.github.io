@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     height: 100%;
     width: 100%;
@@ -51,14 +55,7 @@ a:link, a:visited, a:active {
     outline: 0;
 }
 
-a:hover {
-    -webkit-transition: all 0.3s linear;
-    transition: all 0.3s linear;
-    color: #00cc99;
-    text-decoration: none;
-}
-
-a:focus {
+a:hover, a:focus {
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
     color: #00cc99;
@@ -67,12 +64,12 @@ a:focus {
 
 /*-------------------------GENERAL MEDIA QUERIES-------------------------------*/
 
-@media screen and (max-device-width: 640px) {
+@media screen and (max-device-width: 640px) { /*MOBILE*/
     body {
         font-size: 18px;
     }
-    .intro {
-        padding: 2em;
+    .paragraph {
+        padding: 1.5em;
     }
 }
 
@@ -81,7 +78,7 @@ a:focus {
         font-size: 14px;
         padding: 2em 5em 2em 5em;
     }
-    .intro {
+    .paragraph {
         font-size: 18px;
     }
 }
@@ -129,8 +126,24 @@ a:focus {
 }
 
 
-.intro {
-    padding: 0 20% 3em 20%;
+.paragraph {
+    padding: 0 10% 1.7em 10%;
+    text-align: left;
+
+}
+
+.paragraph a:link, a:visited, a:active {
+    color: #007554;
+}
+.paragraph a:hover, a:focus{
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #00cc99;
+  text-decoration: none;
+}
+
+.paragraph .fa {
+    padding-right: 10px;
 }
 
 /*---------------------------Hamburger menu-------------------------------*/
@@ -250,9 +263,10 @@ a:focus {
     text-align: center;
 }
 
-.fa-google, .fa-linkedin {
-    padding: 10px 30px 10px 30px;
-    color: black;
+.contact-section .fa {
+    padding: 10px 10px 10px 10px;
+    -webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear;
 }
 
 .flexi {
