@@ -47,6 +47,12 @@ footer {
     padding-bottom: 50px;
 }
 
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Disable these awful hyperlink colours*/
 
 a:link, a:visited, a:active {
@@ -60,6 +66,10 @@ a:hover, a:focus {
     transition: all 0.3s linear;
     color: #00cc99;
     text-decoration: none;
+}
+
+.dark {
+  background-color: black;
 }
 
 /*-------------------------GENERAL MEDIA QUERIES-------------------------------*/
@@ -125,11 +135,11 @@ a:hover, a:focus {
     flex-grow: 1;
 }
 
+/*---------------------------Paragraphs-------------------------------*/
 
 .paragraph {
     padding: 0 10% 1.7em 10%;
     text-align: left;
-
 }
 
 .paragraph a:link, .paragraph a:visited, .paragraph a:active {
@@ -187,6 +197,11 @@ a:hover, a:focus {
     display: block;
     width: 100%;
   }
+
+  #telegraph {
+    display: none;
+  }
+
 }
 
 /*---------------------------CONTENT STUFF-------------------------------*/
@@ -217,6 +232,12 @@ a:hover, a:focus {
     padding: 1em;
     height: 100px;
     backface-visibility: hidden;
+}
+
+.card-subtitle {
+  font-size: 0.8em;
+  padding-top: 0.5em;
+  color: #00cc99;
 }
 
 .content-item:hover {
@@ -255,6 +276,12 @@ a:hover, a:focus {
     background-color: #fff;
     color: black;
     border-radius: 3px;
+}
+
+/* -----------Resume Section ---------------*/
+
+#telegraph img{
+  width: 100%;
 }
 
 /* -----------Contact Section ---------------*/
