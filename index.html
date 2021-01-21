@@ -23,7 +23,7 @@
 
     <!-- HEADER -->
 
-    <div id="menu">
+    <div class="section" id="menu">
         <div id="menu-left" style="order: 1">
             <a href="http://zibethin.github.io/">
                 <div class="menu-item logo">
@@ -36,8 +36,8 @@
           <a href="#contact">
               <div class="menu-item">Contact</div>
           </a>
-          <a href="#cv">
-              <div class="menu-item">Resume</div>
+          <a href="#products">
+              <div class="menu-item">Products</div>
           </a>
           <a href="#about">
               <div class="menu-item">About</div>
@@ -56,10 +56,12 @@
 
 
     <!-- CONTENTS -->
-    <div class="paragraph"><b>Thuong Nguyen</b>, who works with the alias zibethin, is a <b>scientist</b> turned <b>information manager</b> with expertise in product design, analytics, GIS and front-end development.</div>
-    <div class="paragraph">Click on the cards to find out more about some of my exploratory work. For more information about my day-to-day work, please do not hesitate to get in <a href=#contact>touch.</a></div>
+    <div class="section">
+      <div class="paragraph"><b>Thuong Nguyen</b>, who works with the alias zibethin, is a <b>scientist</b> turned <b>information manager</b> with expertise in product design, analytics, GIS and front-end development.</div>
+      <div class="paragraph">Click on the cards to find out more about some of my exploratory work. For more information about my day-to-day work, please do not hesitate to get in <a href=#contact>touch.</a></div>
+    </div>
 
-    <div class="content">
+    <div class="section content">
 
       <a href="https://github.com/BrcMapsTeam/taxonomies">
           <div id="zibethin-web" class="content-item">
@@ -142,38 +144,120 @@
 
 
     <!-- About-->
-    <div class="section">
+    <div class="section" id="about" style="background-image: url('images/design.jpg');">
+      <div class="opaque-box">
+        <h2>About Me</h2>
 
-      <h2 id="about">About Me</h2>
+<!-- Start OF flex box for image+paragraphs -->
 
-      <div class="paragraph">
-        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-        <b>Users and impact</b> sit at the core of the <b>products</b> that I create or contribute to, be it for a decision-maker in a large relief operation, a yearly board meeting, a newsletter recipient, or a person affected by a disaster.
-      </div>
 
-      <div class="paragraph">
-        <i class="fa fa-cog" aria-hidden="true"></i>
-        <b>Pragmatism and agility</b> drive my <b>ways of working</b>, be it in a crowded office or remotely in a different timezone.</div>
-      <div class="paragraph">
-        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-        I am a <b>creative problem solver</b> and approach my work with a <a href="https://www.designcouncil.org.uk/news-opinion/what-framework-innovation-design-councils-evolved-double-diamond">double diamond</a> mindset whether I am designing a survey for a programme evaluation, a dashboard for a recurring meeting, a one-off analysis for a campaign or an internal multi-year programme for an organisation.
-      </div>
+          <!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="335px"
+          	 height="200 vw"  style="overflow:visible;enable-background:new 0 0 335 555;" xml:space="preserve">
+          <style type="text/css">
+          	.st0{fill:#00CC99;}
+          	.st1{fill:#002966;}
+          	.st2{fill:#D6D7D8;}
+          </style>
+          <defs>
+          </defs>
+          <polygon class="st0" points="0,104 0,37 334,204 335,285 0,300 "/>
+          <polygon class="st1" points="0,37 0,0 334,1 334,204 "/>
+          <polygon class="st2" points="1,555 335,511 335,285 200,291 1,472 "/>
+          <path class="st0" d="M60,363"/>
+          <path class="st0" d="M238.7,94.6"/>
+          </svg> -->
+
+
+        <div class="flexi" id="about-paragraphs">
+
+          <div class="paragraph">
+            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            <b>Users and impact</b> sit at the core of the <b>products</b> that I create or contribute to, be it for a decision-maker in a large relief operation, a yearly board meeting, a newsletter recipient, or a person affected by a disaster.
+          </div>
+
+          <div class="paragraph">
+            <i class="fa fa-cog" aria-hidden="true"></i>
+            <b>Pragmatism and agility</b> drive my <b>ways of working</b>, be it in a crowded office or remotely in a different timezone.</div>
+
+          <div class="paragraph">
+            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            I am a <b>creative problem solver</b> and approach challenges with a <a href="https://www.designcouncil.org.uk/news-opinion/what-framework-innovation-design-councils-evolved-double-diamond">double diamond</a> mindset whether it is about collecting needs on the ground after a disaster, crunching data to ensure decision-makers receive timely information, or designing a model to change our ways of working.
+          </div>
+
+          <div class="paragraph">
+            After completing my PhD in Nanotechnology</a> from the <a href="https://www.london-nano.com/">London Centre for Nanotechnology</a>, I deliberately shifted to work on the front-line and used my planning and analysis skills to manage information in highly volatile environments. You can find my work on Ebola in the Democratic Republic of the Congo featured <a href="https://blogs.redcross.org.uk/international/2018/12/fighting-ebola-in-a-conflict-zone/">various </a>newspapers and blogs linked below.
+            <br/><br/>Further links to my featured work:
+
+            <div class="flexi">
+
+              <div class="hover-box">
+                <a href="https://www.telegraph.co.uk/global-health/science-and-disease/misinformation-driving-drcs-ebola-outbreak/">
+                  <img src="images/the-telegraph-logo.png" />
+                </a>
+              </div>
+
+              <div class="hover-box">
+                <a href="https://www.independent.co.uk/independentminds/long-reads/fake-news-ebola-outbreak-drc-red-cross-a8956816.html">
+                  <img src="images/Independent-logo.png" />
+                </a>
+              </div>
+
+            </div> <!-- END OF FLEX BOX 1 -->
+
+            <div class="flexi">
+              <div class="hover-box">
+                <a href="https://www.redcross.org.uk/stories/disasters-and-emergencies/world/how-rumours-drove-the-ebola-outbreak">
+                  <img src="images/british-red-cross-logo.png" />
+                </a>
+              </div>
+
+              <div class="hover-box">
+                <a href="https://www.researchgate.net/profile/Thuong_Nguyen2">
+                  <img src="images/researchgate-logo.png" />
+                </a>
+              </div>
+            </div> <!-- END OF FLEX BOX 2 -->
+          </div><!-- END OF last paragraph -->
+        </div> <!-- END OF flex box for paragraphs -->
+
+        <a href="#menu"><i class="fa fa-caret-up" aria-hidden="true"></i>
+        <p>Back to top</p><br/></a>
+
+      </div> <!-- END OF opaque layer -->
+
+
     </div>
 
-    <!-- About-->
-    <div class="section">
+    <!-- Resume-->
+    <div class="section" id="products">
 
-      <h2 id="resume">Resume</h2>
-      <!-- <div id="telegraph">
-        <img src="images/telegraph-background.jpg"/>
+      <h2>Selected Products and Projects</h2>
+      <div class="flexi flex-mobile">
+
+        <div id="bahamas-img">
+          <img src="images/bahamas.jpg" />
+        </div>
+        <div id="bahamas-text">
+
+          <div class="paragraph">
+            <div class="paragraph-title">Information Management for Shelter Cluster</div>
+            In 2019, Hurricane Dorian hit the islands of Abaco and Grand Bahama near the coast of Florida, causing most structures on the islands to be flattened or swept at sea, leaving nearly 100,000 people without a home.
+            I worked with the Shelter cluster team to provide information to coordinate the efforts of NGOs on the ground in the form of analyses of capacity, geographic targeting, and damage assessments.
+            <br/><br/>You can a few of my products on the Shelter Cluster website:
+            <br/><br/><a href="https://www.sheltercluster.org/grand-bahama/documents/draft-subdivisions-grand-bahama-west-and-freeport-map-12">Map of Grand Bahama</a>
+            <br/><a href="https://www.sheltercluster.org/bahamas-hurricane-dorian-2019/documents/who-what-where-3w-shelter-cluster-abaco-05-dec-19">Capacity analysis for Abaco (3W)</a>
+          </div>
+        </div>
       </div>
-      https://www.telegraph.co.uk/global-health/science-and-disease/misinformation-driving-drcs-ebola-outbreak/ -->
+
 
     </div>
     <!-- Contact-->
-    <div class="contact-section">
 
-        <h2 id="contact">Contact</h2>
+
+    <div class="section" id="contact">
+
+        <h2>Contact</h2>
 
         <a id="google"><i class="fa fa-2x fa-envelope-square" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/in/zibethin"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
