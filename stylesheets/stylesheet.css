@@ -286,6 +286,13 @@ a:focus {
   min-width: 300px;
   padding-bottom: 25px;
 }
+
+#ranwo-section img {
+  width: 85vw;
+  min-width: 300px;
+  padding-bottom: 25px;
+}
+
 /* -----------Contact Section ---------------*/
 #contact .fa {
   padding: 10px 10px 10px 10px;
