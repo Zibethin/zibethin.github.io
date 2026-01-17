@@ -267,7 +267,7 @@ a:focus {
   flex-direction: column;
   justify-content: flex-start;
 }
-#about img {
+.article-images img {
   width: 100%;
   padding: 0.5em;
 }
@@ -286,13 +286,10 @@ a:focus {
   min-width: 300px;
   padding-bottom: 25px;
 }
-
-#ranwo-section img {
-  width: 85vw;
-  min-width: 300px;
-  padding-bottom: 25px;
+iframe {
+  max-width: min(21cm, 85%);
+  height: 500px;
 }
-
 /* -----------Contact Section ---------------*/
 #contact .fa {
   padding: 10px 10px 10px 10px;
