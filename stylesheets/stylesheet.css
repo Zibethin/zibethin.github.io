@@ -257,7 +257,7 @@ a:focus {
   border-radius: 3px;
 }
 /* -----------About Section ---------------*/
-#about {
+.fix-background {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -281,7 +281,7 @@ a:focus {
   transition: all 0.3s ease;
 }
 /* -----------Work Section ---------------*/
-#products img {
+#humanitarian img {
   width: 40vw;
   min-width: 300px;
   padding-bottom: 25px;
